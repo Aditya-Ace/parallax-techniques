@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+WAL:wght@100..400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playwrite BE WAL", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: darkslategray;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+  height: 100svh;
+}
+
+#canvas {
+  width: 800px;
+  height: 700px;
+  border: 3px solid white;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+
+#showGameSpeed {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+  width: 800px
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  background: #a1aeb8;
+  height: 1rem;
+  border-radius: 0.5rem;
+}
+
+input[type="range"]::-moz-range-track {
+  background: #a1aeb8;
+  height: 1rem;
+  border-radius: 0.5rem;
+}
